@@ -13,4 +13,5 @@ Aplikacja sterująca chwytakiem robotycznym BraccioArm
 * [zaprogramowana sekwencja ruchów - na mokro] (https://youtu.be/v9puDk9y0iE)
 
 # Budowa robota BraccioArm
-Robot został skonstruowany przez włoską firmę TinkerKit jako model do składania. Szczególy tej konstrukcji można znaleźć tu -> [Braccio Quick Start Guide.pdf](https://github.com/adambla76/BraccioArm/files/8688595/Braccio.Quick.Start.Guide.pdf) 
+   Robot został skonstruowany przez włoską firmę TinkerKit jako model do składania. Szczególy tej konstrukcji można znaleźć tu -> [Braccio Quick Start Guide.pdf](https://github.com/adambla76/BraccioArm/files/8688595/Braccio.Quick.Start.Guide.pdf) Zestaw zawiera szkielet robota wraz z serwo-mechanizmami oraz shield'em do Arduino Uno. Załączony przez producenta program został napisany w Arduino C i pozwalał zaledwie na przetestowanie ruchów poszczególnych przegłubów robota.
+  Powyższy projekt został napisany w środowisku Python3, jest oparty o platformę Raspberry PI rozbudowaną o specialny moduł sterowania 16 x PWM (PCA9685). Dodatkowo do sterowania ramieniem robota projekt korzysta z popularnego kontrolera XBOX Wireless łączącego się z RPi za pomocą technologii Bluetooth. Kolejnym elementem dodatkowym jest wyświetlacz dot-matrix który pozwala na wyświetlanie kluczowych informacji podczas pracy urządzenia
