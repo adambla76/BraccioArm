@@ -1,4 +1,4 @@
-# Ramie robota Braccio - mały ale wariat
+# Ramię robota Braccio - mały ale wariat
 Aplikacja sterująca chwytakiem robotycznym BraccioArm stworzona w Python3 
 
 
@@ -10,8 +10,7 @@ Aplikacja sterująca chwytakiem robotycznym BraccioArm stworzona w Python3
 
 
 # Budowa robota BraccioArm
-   Robot został skonstruowany przez włoską firmę TinkerKit jako model do składania. Szczególy tej konstrukcji można znaleźć tu -> [Braccio Quick Start Guide.pdf](https://github.com/adambla76/BraccioArm/files/8688595/Braccio.Quick.Start.Guide.pdf) Zestaw zawiera szkielet robota wraz z serwo-mechanizmami oraz shield'em do Arduino Uno. Załączony przez producenta program został napisany w Arduino C i pozwalał zaledwie na przetestowanie ruchów poszczególnych przegłubów robota.
-  Powyższy projekt idzie dużo dalej - został napisany w środowisku Python3, jest oparty o platformę Raspberry PI rozbudowaną o specialny moduł sterowania serwo 16 x PWM (PCA9685). Do sterowania ramieniem robota projekt korzysta z popularnego kontrolera XBOX Wireless łączącego się z RPi za pomocą technologii Bluetooth. Kolejnym elementem dodatkowym jest wyświetlacz dot-matrix 5x 8x8led który pozwala na wyświetlanie kluczowych informacji podczas pracy urządzenia
+   Robot został skonstruowany przez włoską firmę TinkerKit jako model do składania. Szczególy tej konstrukcji można znaleźć tu -> [Braccio Quick Start Guide.pdf](https://github.com/adambla76/BraccioArm/files/8688595/Braccio.Quick.Start.Guide.pdf) Zestaw zawiera szkielet robota wraz z 6 serwo-mechanizmami oraz shield'em sterującym do Arduino Uno. Załączony przez producenta program został napisany w Arduino C++ i pozwalał zaledwie na przetestowanie ruchów poszczególnych przegłubów robota. Powyższy projekt idzie dużo dalej - został napisany w środowisku Python3, jest oparty o platformę Raspberry PI rozbudowaną o specialny moduł sterowania serwo 16xPWM (PCA9685). Do sterowania ramieniem robota projekt korzysta z popularnego kontrolera XBOX360 Wireless łączącego się z RPi za pomocą technologii Bluetooth. Kolejnym dodatkowym elementem jest wyświetlacz dot-matrix 8x8led 5 segmentowy, który pozwala na wyświetlanie kluczowych informacji podczas pracy urządzenia
 
 # Sterowanie robotem z poziomu Python3
   Szczegóły dot programu sterującego ramieniem robota Braccio można znaleźć tu -> [Robomania-BraccioArm.pdf](https://github.com/adambla76/BraccioArm/files/8688789/Robomania-BraccioArm.pdf)
