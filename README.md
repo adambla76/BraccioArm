@@ -17,6 +17,6 @@ Aplikacja sterująca chwytakiem robotycznym BraccioArm stworzona w Python3
   Szczegóły dot programu sterującego ramieniem robota Braccio można znaleźć tu -> [Robomania-BraccioArm.pdf](https://github.com/adambla76/BraccioArm/files/8688789/Robomania-BraccioArm.pdf)
 
 # Robot BraccioArm podczas akcji:
-* [programowanie sekwencji za pomocą kontrolera XBOX] (https://youtu.be/3Zx2_R0rXZA)
-* [zaprogramowana sekwencja ruchów - na sucho] (https://youtu.be/r5RY_0C-0PY)
-* [zaprogramowana sekwencja ruchów - na mokro] (https://youtu.be/v9puDk9y0iE)
+* [programowanie sekwencji za pomocą kontrolera XBOX](https://youtu.be/3Zx2_R0rXZA)
+* [zaprogramowana sekwencja ruchów - na sucho](https://youtu.be/r5RY_0C-0PY)
+* [zaprogramowana sekwencja ruchów - na mokro](https://youtu.be/v9puDk9y0iE)
